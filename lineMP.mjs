@@ -10,10 +10,10 @@
 function lineMP (primeiroPar, segundoPar) {
 
   //testar se os objetos não têm as propriedades necessárias para a função
-  if(primeiroPar.x == NULL ||
-    segundoPar.x == NULL ||
-    primeiroPar.y == NULL ||
-    segundoPar.y == NULL ) {
+  if(primeiroPar.x == null ||
+    segundoPar.x == null ||
+    primeiroPar.y == null ||
+    segundoPar.y == null ) {
       throw "Invalid object in the input!";
     }
 
